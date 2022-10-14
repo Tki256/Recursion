@@ -2,7 +2,7 @@ import math
 
 def getShapeType(ax,ay,bx,by,cx,cy,dx,dy):
     # 座標から四角形の形を判断
-    #今回はclass使わずオール関数で
+    #関数
 
     #対角線
     ac_x, ac_y, bd_x, bd_y = vectorDiagonal(ax,ay,bx,by,cx,cy,dx,dy)
